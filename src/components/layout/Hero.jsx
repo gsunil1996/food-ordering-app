@@ -13,9 +13,9 @@ export default function Hero() {
             Pizza
           </span>
         </h1>
-        <div className="md:hidden">
-          <Image src={'/pizza.png'} height={200} width={200} alt={'pizza'} className="m-auto" />
-        </div>
+
+        <Image src={'/pizza.png'} height={200} width={200} alt={'pizza'} className="m-auto md:hidden" />
+
         <p className="my-6 text-gray-500 text-sm">
           Pizza is the missing piece that makes every day complete, a simple yet delicious joy in life
         </p>
